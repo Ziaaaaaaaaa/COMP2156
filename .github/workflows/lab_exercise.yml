@@ -3,8 +3,6 @@ name: Devops Lab Exercise!
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events only for the "master" branch
-  push:
-    branches: [ "master" ]
   pull_request:
     branches: [ "master"]  
 jobs:
